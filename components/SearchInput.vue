@@ -29,6 +29,17 @@ const { size = '' } = defineProps<{
   padding: 8px 12px;
   width: 100%;
 
+  &:hover {
+    border-color: var(--color-hover);
+  }
+
+  &:focus-within {
+    border-color: var(--color-focus);
+  }
+
+  &:active {
+    border-color: var(--color-active);
+  }
   .icon {
     color: var(--color-white);
     font-size: 20px;

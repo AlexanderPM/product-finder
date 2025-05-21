@@ -6,6 +6,10 @@
 :root {
   --bg-color: #2c2f33;
   --color-white: #ffffff;
+
+  --color-hover: #eeeeee;
+  --color-focus: #dddddd;
+  --color-active: #cccccc;
 }
 
 html,
