@@ -40,6 +40,7 @@ const { size = '' } = defineProps<{
   &:active {
     border-color: var(--color-active);
   }
+
   .icon {
     color: var(--color-white);
     font-size: 20px;
